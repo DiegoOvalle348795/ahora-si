@@ -1,0 +1,107 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9362d3;
+}
+
+.navbar {
+    background-color: #660872;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.navbar2 {
+    background-color: #660872;
+    padding: 10px;
+}
+
+.navbar2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar2 ul li {
+    margin-right: 20px;
+}
+
+.navbar2 ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color:  #660872;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.login-container, .register-container, .home-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h1, .register-container h1, .home-container h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #c74bf8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #66129e;
+}
+
+a {
+    color: #1DA1F2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
